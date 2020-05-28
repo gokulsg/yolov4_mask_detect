@@ -1,0 +1,7 @@
+classes= 2
+train  = E:\yolov4\darknet-master\darknet-master\build\darknet\x64\data\mask\yolo_train.txt
+valid  = E:\yolov4\darknet-master\darknet-master\build\darknet\x64\data\mask\yolo_val.txt
+#difficult = data/difficult_2007_test.txt
+names = data\mask\mask.names
+backup = backup/
+
