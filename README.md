@@ -19,3 +19,5 @@ darknet.exe detector demo data/mask/mask.data cfg/yolov4-mask.cfg backup/yolov4-
 darknet.exe detector test data/mask/mask.data cfg/yolov4-mask.cfg backup/yolov4-mask_last.weights   
 # 关于重复检测  
 yolov4重复检测问题通过把yolov4-mask.cfg中nms_kind=greedynms改成nms_kind=diounms来进行优化，也就是在重叠面积过滤基础上又加上了中心点距离过滤。  
+
+![image](https://github.com/srszzw/yolov4_mask_detect/blob/master/chart.png)
